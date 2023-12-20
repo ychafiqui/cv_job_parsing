@@ -1,0 +1,148 @@
+{
+  "lang":"fr",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.5.1,<3.6.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"8153bd573",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat":[
+      "syst\u00e8mes et r\u00e9seaux informatiques",
+      "data",
+      "marketing",
+      "m\u00e9canique",
+      "t\u00e9l\u00e9com",
+      "juridique",
+      "assistance, secr\u00e9tariat et accueil",
+      "commerce",
+      "chimie",
+      "restauration, tourisme et hotellerie",
+      "comptabilit\u00e9",
+      "d\u00e9veloppement informatique",
+      "ressources humaines",
+      "agriculture",
+      "\u00e9lectronique",
+      "logistique",
+      "production"
+    ]
+  },
+  "pipeline":[
+    "textcat"
+  ],
+  "components":[
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.8473187426,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.8456926475,
+    "cats_micro_r":0.8456926475,
+    "cats_micro_f":0.8456926475,
+    "cats_macro_p":0.8489559714,
+    "cats_macro_r":0.8475314703,
+    "cats_macro_f":0.8473187426,
+    "cats_macro_auc":0.979672823,
+    "cats_f_per_type":{
+      "syst\u00e8mes et r\u00e9seaux informatiques":{
+        "p":0.7873563218,
+        "r":0.7326203209,
+        "f":0.7590027701
+      },
+      "data":{
+        "p":0.873015873,
+        "r":0.8870967742,
+        "f":0.88
+      },
+      "marketing":{
+        "p":0.883248731,
+        "r":0.8446601942,
+        "f":0.8635235732
+      },
+      "m\u00e9canique":{
+        "p":0.7541899441,
+        "r":0.8083832335,
+        "f":0.7803468208
+      },
+      "t\u00e9l\u00e9com":{
+        "p":0.8,
+        "r":0.7572815534,
+        "f":0.7780548628
+      },
+      "juridique":{
+        "p":0.9325153374,
+        "r":0.9156626506,
+        "f":0.9240121581
+      },
+      "assistance, secr\u00e9tariat et accueil":{
+        "p":0.7729468599,
+        "r":0.8205128205,
+        "f":0.7960199005
+      },
+      "commerce":{
+        "p":0.8347457627,
+        "r":0.929245283,
+        "f":0.8794642857
+      },
+      "chimie":{
+        "p":0.9438202247,
+        "r":0.9081081081,
+        "f":0.9256198347
+      },
+      "restauration, tourisme et hotellerie":{
+        "p":0.9664804469,
+        "r":0.920212766,
+        "f":0.9427792916
+      },
+      "comptabilit\u00e9":{
+        "p":0.8706467662,
+        "r":0.8974358974,
+        "f":0.8838383838
+      },
+      "d\u00e9veloppement informatique":{
+        "p":0.8558139535,
+        "r":0.9108910891,
+        "f":0.8824940048
+      },
+      "ressources humaines":{
+        "p":0.917721519,
+        "r":0.917721519,
+        "f":0.917721519
+      },
+      "agriculture":{
+        "p":0.8571428571,
+        "r":0.9180327869,
+        "f":0.8865435356
+      },
+      "\u00e9lectronique":{
+        "p":0.7451923077,
+        "r":0.7828282828,
+        "f":0.763546798
+      },
+      "logistique":{
+        "p":0.9090909091,
+        "r":0.8396946565,
+        "f":0.873015873
+      },
+      "production":{
+        "p":0.7283236994,
+        "r":0.6176470588,
+        "f":0.6684350133
+      }
+    },
+    "textcat_loss":0.9324012361
+  }
+}

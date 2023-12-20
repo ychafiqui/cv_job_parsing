@@ -1,0 +1,23 @@
+{
+  "labels":[
+    "syst\u00e8mes et r\u00e9seaux informatiques",
+    "data",
+    "marketing",
+    "m\u00e9canique",
+    "t\u00e9l\u00e9com",
+    "juridique",
+    "assistance, secr\u00e9tariat et accueil",
+    "commerce",
+    "chimie",
+    "restauration, tourisme et hotellerie",
+    "comptabilit\u00e9",
+    "d\u00e9veloppement informatique",
+    "ressources humaines",
+    "agriculture",
+    "\u00e9lectronique",
+    "logistique",
+    "production"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}
