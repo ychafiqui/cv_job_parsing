@@ -1,0 +1,190 @@
+{
+  "lang":"fr",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.6.1,<3.7.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"458bc5f45",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat":[
+      "Graphic Design and Multimedia",
+      "Chemistry and Chemical Engineering",
+      "Data",
+      "Agriculture and Food",
+      "Electrical Engineering",
+      "Aerospace",
+      "Commerce",
+      "Accounting",
+      "Consulting",
+      "Finance and Banking",
+      "Healthcare and Medicine",
+      "Marketing",
+      "Logistics and Transportation",
+      "Human Resources",
+      "Software Development and Programming",
+      "Quality Assurance and Control",
+      "Legal and Law",
+      "Computer Systems and Networks",
+      "Telecommunications",
+      "Administrative Support and Reception",
+      "Hospitality and Tourism",
+      "Production and Manufacturing",
+      "Education and Training",
+      "Mechanical Engineering"
+    ]
+  },
+  "pipeline":[
+    "textcat"
+  ],
+  "components":[
+    "textcat"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.5197793431,
+    "cats_score_desc":"macro F",
+    "cats_micro_p":0.54375,
+    "cats_micro_r":0.54375,
+    "cats_micro_f":0.54375,
+    "cats_macro_p":0.5673259642,
+    "cats_macro_r":0.5509129544,
+    "cats_macro_f":0.5197793431,
+    "cats_macro_auc":0.7920242807,
+    "cats_f_per_type":{
+      "Graphic Design and Multimedia":{
+        "p":0.6470588235,
+        "r":0.5789473684,
+        "f":0.6111111111
+      },
+      "Chemistry and Chemical Engineering":{
+        "p":0.2040816327,
+        "r":0.4761904762,
+        "f":0.2857142857
+      },
+      "Data":{
+        "p":0.9285714286,
+        "r":0.619047619,
+        "f":0.7428571429
+      },
+      "Agriculture and Food":{
+        "p":0.8571428571,
+        "r":0.8,
+        "f":0.8275862069
+      },
+      "Electrical Engineering":{
+        "p":0.275,
+        "r":0.55,
+        "f":0.3666666667
+      },
+      "Aerospace":{
+        "p":0.8421052632,
+        "r":1.0,
+        "f":0.9142857143
+      },
+      "Commerce":{
+        "p":0.7777777778,
+        "r":0.6666666667,
+        "f":0.7179487179
+      },
+      "Accounting":{
+        "p":0.7083333333,
+        "r":0.7083333333,
+        "f":0.7083333333
+      },
+      "Consulting":{
+        "p":0.3392857143,
+        "r":0.95,
+        "f":0.5
+      },
+      "Finance and Banking":{
+        "p":0.5384615385,
+        "r":0.2592592593,
+        "f":0.35
+      },
+      "Healthcare and Medicine":{
+        "p":1.0,
+        "r":0.9473684211,
+        "f":0.972972973
+      },
+      "Marketing":{
+        "p":0.75,
+        "r":0.5625,
+        "f":0.6428571429
+      },
+      "Logistics and Transportation":{
+        "p":0.9090909091,
+        "r":0.5555555556,
+        "f":0.6896551724
+      },
+      "Human Resources":{
+        "p":0.9230769231,
+        "r":0.8888888889,
+        "f":0.9056603774
+      },
+      "Software Development and Programming":{
+        "p":0.5,
+        "r":0.0526315789,
+        "f":0.0952380952
+      },
+      "Quality Assurance and Control":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Legal and Law":{
+        "p":0.6666666667,
+        "r":0.0869565217,
+        "f":0.1538461538
+      },
+      "Computer Systems and Networks":{
+        "p":0.225,
+        "r":0.6,
+        "f":0.3272727273
+      },
+      "Telecommunications":{
+        "p":0.9090909091,
+        "r":0.8695652174,
+        "f":0.8888888889
+      },
+      "Administrative Support and Reception":{
+        "p":0.4722222222,
+        "r":0.85,
+        "f":0.6071428571
+      },
+      "Hospitality and Tourism":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Production and Manufacturing":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Education and Training":{
+        "p":0.1428571429,
+        "r":0.2,
+        "f":0.1666666667
+      },
+      "Mechanical Engineering":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      }
+    },
+    "textcat_loss":6.2715477975
+  }
+}

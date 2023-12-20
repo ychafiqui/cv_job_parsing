@@ -1,0 +1,30 @@
+{
+  "labels":[
+    "Graphic Design and Multimedia",
+    "Chemistry and Chemical Engineering",
+    "Data",
+    "Agriculture and Food",
+    "Electrical Engineering",
+    "Aerospace",
+    "Commerce",
+    "Accounting",
+    "Consulting",
+    "Finance and Banking",
+    "Healthcare and Medicine",
+    "Marketing",
+    "Logistics and Transportation",
+    "Human Resources",
+    "Software Development and Programming",
+    "Quality Assurance and Control",
+    "Legal and Law",
+    "Computer Systems and Networks",
+    "Telecommunications",
+    "Administrative Support and Reception",
+    "Hospitality and Tourism",
+    "Production and Manufacturing",
+    "Education and Training",
+    "Mechanical Engineering"
+  ],
+  "threshold":0.0,
+  "positive_label":null
+}
